@@ -6,7 +6,7 @@ const Kontakt = () => {
     return (
         <>
             <Head>
-                <title>Kontakt - Pro Handwerker</title>
+                <title>Kontakt ❤️ Pro Handwerker</title>
                 <meta name="robots" content="noindex,follow" />
                 <link rel="canonical" href="https://pro-handwerker.de/kontakt" />
             </Head>
@@ -22,7 +22,7 @@ const Kontakt = () => {
                 <h1 className="display-5 fw-bold mb-4">Bleiben Sie mit uns in Kontakt</h1>
                 <p className="fs-5 mb-5">Sie können uns auch telefonisch erreichen oder eine E-Mail senden</p>
                 <h1 className="display-6 fw-bold mb-2">Telefon</h1>
-                <p className="fs-5">Telefon : 0174 899-9213</p>
+                <p className="fs-5">Telefon : 0174 899-7115</p>
                 <h1 className="display-6 fw-bold mb-2 mt-2">Addresse</h1>
                 <p className="fs-5 mb-1">Giuseppe Licopoli</p>
                 <p className="fs-5 mb-1">Neuenkamperstr. 32</p>

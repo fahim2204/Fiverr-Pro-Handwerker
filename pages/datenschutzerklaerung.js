@@ -6,7 +6,7 @@ const Datenschutzerklaerung = () => {
     return (
         <>
             <Head>
-                <title>Datenschutzerklaerung - Pro Handwerker</title>
+                <title>Datenschutzerklaerung ❤️ Pro Handwerker</title>
                 <meta name="robots" content="noindex,follow" />
                 <link rel="canonical" href="https://pro-handwerker.de/datenschutzerklaerung" />
             </Head>
@@ -96,7 +96,7 @@ const Datenschutzerklaerung = () => {
                         Giuseppe Licopoli<br />
                         Neuenkamperstr. 32<br />
                         <p>42657 Solingen</p>
-                        Telefon : 0174 899-9213<br />
+                        Telefon : 0174 899-7115<br />
                         <p>E-Mail: info@prohandwerker.de</p>
                     </div>
                     <p className="fs-5">

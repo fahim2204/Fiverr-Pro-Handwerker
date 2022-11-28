@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Impressum - Pro Handwerker</title>
+        <title>Impressum ❤️ Pro Handwerker</title>
         <meta name="robots" content="index,follow" />
         <link rel="canonical" href="https://pro-handwerker.de" />
       </Head>

@@ -11,8 +11,8 @@ const Region = () => {
         <>
             <Head>
                 <title>Garten und Landschaftsbauer -
-                    Stadt wählen - Pro Handwerker</title>
-                <meta name="robots" content="index,follow" />
+                    Stadt wählen ❤️ Pro Handwerker</title>
+                <meta name="robots" content="noindex, follow" />
                 <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`} />
                 <link rel="canonical" href={`https://pro-handwerker.de/garten-und-landschaftsbauer`} />
             </Head>
@@ -24,12 +24,12 @@ const Region = () => {
                             Stadt wählen</h1>
                         <h2 className="text-center fs-6 text-white mb-3">Garten und Landschaftsbauer Experte -
                             Stadt wählen | Kostenlose fachmännische Beratung | Faire Preis</h2>
-                        <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748999213">0174 899-9213</a></h1>
+                        <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748997115">0174 899-7115</a></h1>
                     </div>
                 </div>
             </header>
             <div className="container">
-                <h1 className="fs-2 py-4 mt-3 fw-bold">Finden Sie Garten und Landschaftsbauer - Experten in Ihrer Stadt</h1>
+                <h1 className="fs-2 py-4 mt-3 fw-bold">Finden Sie Ihren Garten und Landschaftsbauer Service in Ihrer Stadt</h1>
                 <div id="alphaLink" className="d-flex bg-secondary text-white px-2 mb-4 align-items-center flex-wrap">
                     {
                         alpha.map(letter => {

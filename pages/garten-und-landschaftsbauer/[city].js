@@ -29,7 +29,7 @@ const City = (context) => {
     return (
       <>
       <Head>
-        <title>{`Terrassenbauer - Pflasterarbeiten in ${context.data} - Pro Handwerker`}</title>
+        <title>{`Terrassenbauer - Pflasterarbeiten in ${context.data} ❤️ Pro Handwerker`}</title>
         <meta name="robots" content="index,follow" />
         <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`}/>
         <link rel="canonical" href={`https://pro-handwerker.de/garten-und-landschaftsbauer/${context.data}`}/>
@@ -40,15 +40,15 @@ const City = (context) => {
           <div className="container">
             <h1 className="text-center display-3 fw-bold text-white">{`Terrassenbauer - Pflasterarbeiten in ${context.data}`}</h1>
             <h2 className="text-center fs-6 text-white mb-3">Terrassenbauer - Pflasterarbeiten | Kostenlose fachmännische Beratung | Faire Preis</h2>
-            <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748999213">0174 899-9213</a></h1>
+            <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748997115">0174 899-7115</a></h1>
           </div>
         </div>
       </header>
       <main>
         <div className="container pt-5">
-          <h1 className="display-5 fw-bold mb-4">Garten und Landschaftsbauer in {context.data}<br/><span className="fs-2">innovative Gartengestaltung</span></h1>
+          <h1 className="display-5 fw-bold mb-4">Garten und Landschaftsbauer Service in {context.data}<br/><span className="fs-2">innovative Gartengestaltung</span></h1>
           <div className="col-12 col-md-10 col-lg-8">
-            <p className="fs-5">Terrassenbau - Terrassensanierung - Pflasterarbeiten - Garten und Landschaftsbauer in {context.data}</p>
+            <p className="fs-5">Terrassenbau - Terrassensanierung - Pflasterarbeiten - Garten und Landschaftsbauer Service in {context.data}</p>
 
             <p className="fs-5 mb-5">Wir erstellen ihnen ihre neue Traumterrasse nach ihren Wünschen</p>
 

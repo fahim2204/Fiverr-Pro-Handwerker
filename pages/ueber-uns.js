@@ -6,7 +6,7 @@ const UeberUns = () => {
     return (
         <>
             <Head>
-                <title>Über uns - Pro Handwerker</title>
+                <title>Über uns ❤️ Pro Handwerker</title>
                 <meta name="robots" content="index,follow" />
                 <link rel="canonical" href="https://pro-handwerker.de/ueber-uns" />
             </Head>

@@ -6,7 +6,7 @@ const Impressum = () => {
     return (
         <>
             <Head>
-                <title>Impressum - Pro Handwerker</title>
+                <title>Impressum ❤️ Pro Handwerker</title>
                 <meta name="robots" content="noindex,follow" />
         <link rel="canonical" href="https://pro-handwerker.de/impressum" />
             </Head>
@@ -23,7 +23,7 @@ const Impressum = () => {
                 <h1 className="display-5 fw-bold mb-3">Impressum</h1>
                 <p className="fs-5 mb-5">Sie können uns auch telefonisch erreichen oder eine E-Mail senden</p>
                 <h1 className="fs-2 fw-bold mb-2">Telefon</h1>
-                <p className="fs-5">Telefon : 0174 899-9213</p>
+                <p className="fs-5">Telefon : 0174 899-7115</p>
                 <h1 className="fs-2 fw-bold mb-2">Addresse</h1>
                 <p className="fs-5">Giuseppe Licopoli</p>
                 <p className="fs-5">Neuenkamperstr. 32</p>

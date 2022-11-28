@@ -78,7 +78,7 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="text-white fs-5 order-1 order-lg-2 me-3 me-lg-0" href="tel:01748999213">0174 899-9213</Link>
+            <Link className="text-white fs-5 order-1 order-lg-2 me-3 me-lg-0" href="tel:01748997115">0174 899-7115</Link>
 
             
           </div>
