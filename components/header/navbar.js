@@ -7,23 +7,12 @@ function Navbar() {
           <div className="container d-flex">
             <Link
               href={"/"}
-              className="navbar-brand me-auto"
+              className="navbar-brand me-auto order-0"
             >
               <img className="ps-3" src="/img/logo.png" alt="logo" height={75} />
             </Link>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div
-              className="collapse navbar-collapse py-3"
+  
+            <div className="collapse navbar-collapse py-3  order-2 order-lg-1"
               id="navbarSupportedContent"
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0 text-white">
@@ -81,7 +70,17 @@ function Navbar() {
                 </li>
               </ul>
             </div>
-            <Link className="text-white fs-5" href="tel:01748999213">0174 899-9213</Link>
+            <button
+              className="navbar-toggler order-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <Link className="text-white fs-5 order-1 order-lg-2 me-3 me-lg-0" href="tel:01748999213">0174 899-9213</Link>
+
+            
           </div>
         </nav>
     </>

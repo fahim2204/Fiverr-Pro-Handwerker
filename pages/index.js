@@ -19,10 +19,10 @@ export default function Home() {
         <Navbar />
         <div className="container-fluid mt-5 pt-5">
           <div className="container">
-            <p className="text-center text-white fnt-">
+            <p className="text-center text-white fs-6">
               Eine Komplettlösung für Ihre Handwerksarbeiten.
             </p>
-            <p className="text-center text-white fnt-big fw-bold">
+            <p className="text-center text-white display-3 fw-bold">
               Willkommen bei Pro Handwerker
               <br />
               ihrem Handwerkerprofi
@@ -77,7 +77,7 @@ export default function Home() {
               <Link href={"/garten-und-landschaftsbauer"}>
                 <div className="rounded-1 shadow-sm border p-3">
                   <div className="">
-                    <img src="img/bild-4.png" alt="" />
+                    <img src="/img/bild-4.png" alt="" />
                   </div>
                   <p className="fw-semibold fs-5 text-center">
                     Garten und Landschaftsbau
@@ -91,12 +91,12 @@ export default function Home() {
 
       <section className="mt-5">
         <div className="container">
-          <div className="row g-5">
+          <div className="row">
             <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
               <div className="col-4">
                 <img
                   className="img-fluid rounded shadow-sm"
-                  src="img/bild-5.png"
+                  src="/img/bild-5.png"
                   alt=""
                 />
               </div>

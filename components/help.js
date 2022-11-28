@@ -3,7 +3,7 @@ function Help() {
   return (
     <>
        <section className="mt-5">
-        <div className="container-lg d-flex justify-content-center">
+        <div className="container d-flex justify-content-center">
           <div className="border border-light rounded shadow-sm bg-logo-yellow row px-4 py-5">
             <div className="box-1 col-12 col-md-6 d-flex flex-column mb-3 mb-md-0 border-end border-light">
               <p className="box-title">Wie können wir Ihnen helfen?</p>

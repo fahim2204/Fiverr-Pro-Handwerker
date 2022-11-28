@@ -5,11 +5,11 @@ const Footer = () => {
     <>
       <footer className="bg-light">
         <div className="container pb-1 pt-5">
-          <div className="row">
-            <div className="col-4 d-flex justify-content-center">
+          <div className="row d-flex justify-content-center">
+            <div className="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-center">
               <Link href={"/"}><img src="img/logo.png" alt="" height={75} /></Link>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-md-4">
               <p className="fs-5">Dienstleistungen</p>
               <Link className="d-block mb-2" href={"/trockenbauer"}>
                 Trockenbauer
@@ -24,7 +24,7 @@ const Footer = () => {
                 Garten und Landschaftsbauer
               </Link>
             </div>
-            <div className="col-4">
+            <div className="col-6 col-md-4">
               <p className="fs-5">Quick Links</p>
               <Link className="d-block mb-2" href={"/kontakt"}>
                 Kontakt

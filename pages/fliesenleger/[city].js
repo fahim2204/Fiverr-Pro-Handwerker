@@ -1,4 +1,4 @@
-import { RheinlandPfalz } from "../../components/data/cityList"
+import { CityList } from "../../components/data/cityList"
 import Head from "next/head";
 import Contact from "../../components/contact";
 import Navbar from "../../components/header/navbar";
@@ -6,7 +6,7 @@ import Link from "next/link";
 
 
 export async function getStaticPaths() {
-    const paths = RheinlandPfalz.map(
+    const paths = CityList.map(
         x => {
             return {
                 params: { city: x.city },
@@ -30,7 +30,7 @@ const City = (context) => {
     return (
         <>
         <Head>
-          <title>Fliesenleger in {context.data} - Pro Handwerker</title>
+          <title>{`Fliesenleger in ${context.data} - Pro Handwerker`}</title>
           <meta name="robots" content="index,follow" />
           <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`}/>
           <link rel="canonical" href={`https://pro-handwerker.de/fliesenleger/${context.data}`} />
@@ -39,8 +39,8 @@ const City = (context) => {
           <Navbar />
           <div className="container-fluid mt-5 pt-5">
             <div className="container">
-              <h1 className="text-center display-3 fw-bold text-white">Fliesenleger in {context.data}</h1>
-              <h2 className="text-center fs-6 text-white mb-3">Fliesenleger Experte in {context.data} | Kostenlose fachmännische Beratung | Faire Preis</h2>
+              <h1 className="text-center display-3 fw-bold text-white">{`Fliesenleger in ${context.data}`}</h1>
+              <h2 className="text-center fs-6 text-white mb-3">{`Fliesenleger Experte in ${context.data} | Kostenlose fachmännische Beratung | Faire Preis`}</h2>
               <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748999213">0174 899-9213</a></h1>
             </div>
           </div>

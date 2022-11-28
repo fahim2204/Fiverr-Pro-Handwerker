@@ -1,20 +1,16 @@
 import Link from "next/link"
 import Head from "next/head"
 import Navbar from "../../components/header/navbar"
-import { RheinlandPfalz } from "../../components/data/cityList"
+import { CityList } from "../../components/data/cityList"
 
-let RegionData = ["Hessen", "Niedersachsen", "Nordrhein-Westfalen", "Rheinland-Pfalz"]
-let alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "X", "Y", "Z"]
-
-
+let alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V","W", "X", "Y", "Z"]
 
 
 const Region = () => {
     return (
         <>
             <Head>
-                <title>Fliesenleger -
-                    Stadt wählen - Pro Handwerker</title>
+                <title>Fliesenleger - Stadt wählen - Pro Handwerker</title>
                 <meta name="robots" content="index,follow" />
                 <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`} />
                 <link rel="canonical" href={`https://pro-handwerker.de/fliesenleger`} />
@@ -32,19 +28,19 @@ const Region = () => {
                 </div>
             </header>
             <div className="container">
-                <h1 className="fs-2 py-3 fw-bold">Finden Sie Fliesenleger-Experten in Ihrer Stadt</h1>
-                <div id="alphaLink" className="d-flex bg-secondary text-white px-2 mb-4 align-items-center">
+                <h1 className="fs-2 py-4 mt-3 fw-bold">Finden Sie Fliesenleger - Experten in Ihrer Stadt</h1>
+                <div id="alphaLink" className="d-flex bg-secondary text-white px-2 mb-4 align-items-center flex-wrap">
                     {
                         alpha.map(letter => {
                             return (
                                 <>
-                                    <Link className="fs-4 ms-2 pe-1 text-decoration-underline hov-cl-yellow" href={`/fliesenleger#starWith_${letter}`}>{letter}</Link>
+                                    <Link className="alpha-pagination" href={`/fliesenleger#starWith_${letter}`}>{letter}</Link>
 
                                 </>
                             )
                         })
                     }
-                    <Link className="fs-4 ms-2 pe-1 text-decoration-underline hov-cl-yellow" href={`/fliesenleger#starWith_idn`}>IDN</Link>
+                    <Link className="alpha-pagination" href={`/fliesenleger#starWith_idn`}>IDN</Link>
                 </div>
                 {
                     alpha.map((letter) => {
@@ -57,10 +53,10 @@ const Region = () => {
                                     </div>
                                     <div className="row py-3">
                                         {
-                                            RheinlandPfalz.filter(item => item.city.startsWith(letter)).map((item) => {
+                                            CityList.filter(item => item.city.startsWith(letter)).map((item) => {
                                                 return (
                                                     <>
-                                                        <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
+                                                        <div className="city-box col-6 col-sm-4 col-md-3"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
                                                     </>
                                                 )
                                             })
@@ -78,7 +74,7 @@ const Region = () => {
                                     </div>
                 <div className="row py-3">
                     {
-                        RheinlandPfalz.filter(item => item.city.charAt(0).match(/[^a-z]/i)).map((item) => {
+                        CityList.filter(item => item.city.charAt(0).match(/[^a-z]/i)).map((item) => {
                             return (
                                 <>
                                     <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>

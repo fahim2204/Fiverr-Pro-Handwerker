@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -24,10 +26,6 @@ a {
     z-index: -1;
 }
 
-.fnt-big {
-    font-size: 3rem;
-}
-
 
 /* ----Section - 2 - START */
 
@@ -36,7 +34,7 @@ a {
 }
 
 .text-blue {
-    color: #2D4188 !important;
+    color: #2d4188 !important;
 }
 
 .text-yellow {
@@ -53,12 +51,12 @@ a {
 
 .hov-cl-yellow:hover {
     color: #fe9532 !important;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .hov-cl-lightblue:hover {
     color: #add8e6 !important;
-    transition: all .3s;
+    transition: all 0.3s;
 }
 
 .box-1 {
@@ -115,4 +113,36 @@ a {
 .uber-ul li::before {
     content: "✅";
     margin-right: 10px;
+}
+
+
+/* py-2 fs-4 ms-2 pe-1 text-decoration-underline hov-cl-yellow */
+
+.alpha-pagination {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    font-size: calc(1.275rem + 0.3vw) !important;
+    margin-left: 0.5rem !important;
+    padding-right: 0.25rem !important;
+    text-decoration: underline !important;
+}
+
+.alpha-pagination:hover {
+    color: #fe9532 !important;
+    transition: all 0.3s;
+}
+
+
+/* col-6 col-sm-4 col-md-3    */
+
+.city-box {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 1rem !important;
+    justify-content: center !important;
+}
+
+.city-box:hover {
+    color: #fe9532 !important;
+    transition: all 0.3s;
 }
