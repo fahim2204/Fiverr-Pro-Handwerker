@@ -64,7 +64,7 @@ const City = (context) => {
             {/* Another Section START */}
               <div className="row">
                 <div className="col-4">
-                <img className="img-fluid rounded shadow-sm" src="/img/fenstereinbau-und-tuereneinbau/türenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" />
+                <img className="img-fluid rounded shadow-sm" src="/img/fenstereinbau-und-tuereneinbau/tuerenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" />
                 </div>
                 <div className="col-2"></div>
                 <div className="col-6">

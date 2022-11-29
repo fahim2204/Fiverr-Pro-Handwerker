@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://pro-handwerker.de
+
+# Sitemaps
+Sitemap: https://pro-handwerker.de/sitemap.xml
