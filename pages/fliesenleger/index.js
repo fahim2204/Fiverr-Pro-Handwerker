@@ -3,7 +3,10 @@ import Head from "next/head"
 import Navbar from "../../components/header/navbar"
 import { CityList } from "../../components/data/cityList"
 
-let alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V","W", "X", "Y", "Z"]
+let alpha = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V","W", "X", "Y", "Z"];
+
+// const simpliFy = text => text.toUpperCase().replace("Ä","ae").replace("Ü","ue").replace("Ö","oe").replace("ẞ","ss").toLowerCase();
+
 
 
 const Region = () => {
@@ -56,7 +59,7 @@ const Region = () => {
                                             CityList.filter(item => item.city.startsWith(letter)).map((item) => {
                                                 return (
                                                     <>
-                                                        <div className="city-box col-6 col-sm-4 col-md-3"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
+                                                        <div className="city-box col-6 col-sm-4 col-md-3"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.cityLink}`}>{item.city}</Link></div>
                                                     </>
                                                 )
                                             })
@@ -77,7 +80,7 @@ const Region = () => {
                         CityList.filter(item => item.city.charAt(0).match(/[^a-z]/i)).map((item) => {
                             return (
                                 <>
-                                    <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
+                                    <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fliesenleger/${item.cityLink}`}>{item.city}</Link></div>
                                 </>
                             )
                         })

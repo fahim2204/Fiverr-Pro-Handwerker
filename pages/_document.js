@@ -5,10 +5,6 @@ export default function Document() {
     <Html lang="de">
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Pro Handwerker"
-        />
         <meta name="author" content="Pro Handwerker" />
       </Head>
       <body>

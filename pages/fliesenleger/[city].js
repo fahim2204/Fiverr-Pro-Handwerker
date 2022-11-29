@@ -1,4 +1,4 @@
-import { CityList } from "../../components/data/cityList"
+import { CityList,GetCityName } from "../../components/data/cityList"
 import Head from "next/head";
 import Contact from "../../components/contact";
 import Navbar from "../../components/header/navbar";
@@ -9,7 +9,7 @@ export async function getStaticPaths() {
     const paths = CityList.map(
         x => {
             return {
-                params: { city: x.city },
+                params: { city: x.cityLink},
             }
         }
     )
@@ -20,9 +20,8 @@ export async function getStaticPaths() {
 }
 export async function getStaticProps(context) {
     const { params } = context;
-    // console.log(context)
     return {
-        props: { data: params.city },
+        props: { data: GetCityName(params.city), dataLink:params.city },
     }
 }
 
@@ -33,7 +32,7 @@ const City = (context) => {
           <title>{`Fliesenleger Service in ${context.data} ❤️ Pro Handwerker`}</title>
           <meta name="robots" content="index,follow" />
           <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`}/>
-          <link rel="canonical" href={`https://pro-handwerker.de/fliesenleger/${context.data}`} />
+          <link rel="canonical" href={`https://pro-handwerker.de/fliesenleger/${context.dataLink}`} />
         </Head>
         <header className="hero-img">
           <Navbar />
@@ -108,7 +107,8 @@ const City = (context) => {
   
   
               <h1 className="display-5 fw-bold my-4">Fliesenleger Service in {context.data}</h1>
-              <p className="fs-5">Vertrauen Sie Pro Handwerker bei Ihrer nächsten Verlegung oder Reparatur von Fliesenböden. Finden Sie Ihren örtlichen Experten für die Verlegung von Fliesenböden in {context.data}. Sie können uns auch unter 0174 899-7115 anrufen.</p>
+              <p className="fs-5">Vertrauen Sie Pro Handwerker bei Ihrer nächsten Verlegung oder Reparatur von Fliesenböden. Fliesenleger Service für die Verlegung von Fliesenböden in {context.data}. Sie können uns auch unter 0174 899-7115 anrufen.
+              </p>
   
             </div>
   

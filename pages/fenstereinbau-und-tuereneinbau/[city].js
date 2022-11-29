@@ -1,4 +1,4 @@
-import { CityList } from "../../components/data/cityList"
+import { CityList,GetCityName } from "../../components/data/cityList"
 import Head from "next/head";
 import Contact from "../../components/contact";
 import Navbar from "../../components/header/navbar";
@@ -9,7 +9,7 @@ export async function getStaticPaths() {
     const paths = CityList.map(
         x => {
             return {
-                params: { city: x.city },
+                params: { city: x.cityLink },
             }
         }
     )
@@ -20,9 +20,8 @@ export async function getStaticPaths() {
 }
 export async function getStaticProps(context) {
     const { params } = context;
-    // console.log(context)
     return {
-        props: { data: params.city },
+        props: { data: GetCityName(params.city), dataLink:params.city },
     }
 }
 
@@ -33,7 +32,7 @@ const City = (context) => {
         <title>{`Fenstereinbau und Türeneinbau Service in ${context.data} ❤️ Pro Handwerker`}</title>
         <meta name="robots" content="index,follow" />
         <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`}/>
-        <link rel="canonical" href={`https://pro-handwerker.de/fenstereinbau-und-tuereneinbau/${context.data}`}/>
+        <link rel="canonical" href={`https://pro-handwerker.de/fenstereinbau-und-tuereneinbau/${context.dataLink}`}/>
       </Head>
       <header className="hero-img">
         <Navbar />
@@ -65,7 +64,7 @@ const City = (context) => {
             {/* Another Section START */}
               <div className="row">
                 <div className="col-4">
-                <img className="img-fluid rounded shadow-sm" src="img/fenstereinbau-und-tuereneinbau/türenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" />
+                <img className="img-fluid rounded shadow-sm" src="/img/fenstereinbau-und-tuereneinbau/türenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" />
                 </div>
                 <div className="col-2"></div>
                 <div className="col-6">

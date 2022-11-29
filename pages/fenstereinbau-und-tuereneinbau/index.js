@@ -57,7 +57,7 @@ const Region = () => {
                                             CityList.filter(item => item.city.startsWith(letter)).map((item) => {
                                                 return (
                                                     <>
-                                                        <div className="city-box col-6 col-sm-4 col-md-3"><Link className="m-3 w-100 border-bottom" href={`/fenstereinbau-und-tuereneinbau/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
+                                                        <div className="city-box col-6 col-sm-4 col-md-3"><Link className="m-3 w-100 border-bottom" href={`/fenstereinbau-und-tuereneinbau/${item.cityLink}`}>{item.city}</Link></div>
                                                     </>
                                                 )
                                             })
@@ -78,7 +78,7 @@ const Region = () => {
                         CityList.filter(item => item.city.charAt(0).match(/[^a-z]/i)).map((item) => {
                             return (
                                 <>
-                                    <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fenstereinbau-und-tuereneinbau/${item.city}`}>{item.city.toLocaleUpperCase()}</Link></div>
+                                    <div className="col-3 mb-3 hov-cl-yellow d-flex justify-content-center align-items-center"><Link className="m-3 w-100 border-bottom" href={`/fenstereinbau-und-tuereneinbau/${item.cityLink}`}>{item.city}</Link></div>
                                 </>
                             )
                         })

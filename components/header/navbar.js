@@ -63,11 +63,6 @@ function Navbar() {
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item">
-                  <Link className="nav-link text-white fs-5 mx-3" href={"/kontakt"}>
-                    Kontakt
-                  </Link>
-                </li>
               </ul>
             </div>
             <button
@@ -78,9 +73,7 @@ function Navbar() {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="text-white fs-5 order-1 order-lg-2 me-3 me-lg-0" href="tel:01748997115">0174 899-7115</Link>
-
-            
+            <Link className="text-white fs-5 order-1 order-lg-2 me-3 me-lg-0" href="tel:01748997115">Benötigen sie eine Beratung? &nbsp; 0174 899-7115</Link>
           </div>
         </nav>
     </>

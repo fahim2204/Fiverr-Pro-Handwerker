@@ -30,7 +30,7 @@ const Impressum = () => {
                 <p className="fs-5">42657 Solingen</p>
                 <h1 className="fs-2 fw-bold mb-2">Email</h1>
                 <p className="fs-5 mb-2">info@prohandwerker.de</p>
-                <p className="fs-5 mb-5">Eingetragen bei der Handwerkskammer Düsseldorf</p>
+                <p className="fs-5 mb-5">Aufsichtsbehörde: Handwerkskammer Düsseldorf</p>
 
                 <div className="col-12 col-md-10 col-lg-8">
                     <h1 className="fs-2 fw-bold mb-2">EU-Streitschlichtung</h1>
