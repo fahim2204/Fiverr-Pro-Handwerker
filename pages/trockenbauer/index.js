@@ -13,18 +13,18 @@ const Region = () => {
                 <title>Trockenbauer -
                     Stadt wählen ❤️ Pro Handwerker</title>
                 <meta name="robots" content="noindex, follow" />
-                <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`} />
+                <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`} />
                 <link rel="canonical" href={`https://pro-handwerker.de/trockenbauer`} />
             </Head>
             <header className="hero-img">
                 <Navbar />
                 <div className="container-fluid mt-5 pt-5">
                     <div className="container">
-                        <h1 className="text-center display-3 fw-bold text-white">Trockenbauer -
+                        <h1 className="title-text display-3">Trockenbauer -
                             Stadt wählen</h1>
-                        <h2 className="text-center fs-6 text-white mb-3">Trockenbauer Experte -
+                        <h2 className="txt2">Trockenbauer Experte -
                             Stadt wählen | Kostenlose fachmännische Beratung | Faire Preis</h2>
-                        <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748997115">0174 899-7115</a></h1>
+                        <h1 className="txt3 fs-1"><a href="tel:01748997115">0174 899-7115</a></h1>
                     </div>
                 </div>
             </header>

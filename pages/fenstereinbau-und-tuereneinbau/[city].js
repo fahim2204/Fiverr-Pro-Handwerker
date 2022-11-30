@@ -2,7 +2,7 @@ import { CityList,GetCityName } from "../../components/data/cityList"
 import Head from "next/head";
 import Contact from "../../components/contact";
 import Navbar from "../../components/header/navbar";
-import Link from "next/link";
+import Image from "next/image";
 
 
 export async function getStaticPaths() {
@@ -31,16 +31,16 @@ const City = (context) => {
       <Head>
         <title>{`Fenstereinbau und Türeneinbau Service in ${context.data} ❤️ Pro Handwerker`}</title>
         <meta name="robots" content="index,follow" />
-        <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit. Für Ihr geplantes Vorhaben sind Sie bei uns genau Richtig.`}/>
+        <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`}/>
         <link rel="canonical" href={`https://pro-handwerker.de/fenstereinbau-und-tuereneinbau/${context.dataLink}`}/>
       </Head>
       <header className="hero-img">
         <Navbar />
         <div className="container-fluid mt-5 pt-5">
           <div className="container">
-            <h1 className="text-center display-3 fw-bold text-white">{`Fenstereinbau und Türeneinbau Service in ${context.data}`}</h1>
-            <h2 className="text-center fs-6 text-white mb-3">{`Fenstereinbau und Türeneinbau Service in ${context.data} | Kostenlose fachmännische Beratung | Faire Preis`}</h2>
-            <h1 className="text-center fw-bold fs-1 text-white pt-4"><a href="tel:01748997115">0174 899-7115</a></h1>
+            <h1 className="title-text display-3">{`Fenstereinbau und Türeneinbau Service in ${context.data}`}</h1>
+            <h2 className="txt2">{`Fenstereinbau und Türeneinbau Service in ${context.data} | Kostenlose fachmännische Beratung | Faire Preis`}</h2>
+            <h3 className="txt3 fs-1"><a href="tel:01748997115">0174 899-7115</a></h3>
           </div>
         </div>
       </header>
@@ -64,7 +64,7 @@ const City = (context) => {
             {/* Another Section START */}
               <div className="row">
                 <div className="col-4">
-                <img className="img-fluid rounded shadow-sm" src="/img/fenstereinbau-und-tuereneinbau/tuerenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" />
+                <Image className="img-fluid rounded shadow-sm" src="/img/fenstereinbau-und-tuereneinbau/tuerenbauer-fensterbauer.jpg" alt="Fenstereinbau-und-Türeneinbau" height={115} width={200}/>
                 </div>
                 <div className="col-2"></div>
                 <div className="col-6">
@@ -89,18 +89,18 @@ const City = (context) => {
             <p className="fs-5">Unsere Installationen sind Bundesweit verfügbar, erkundigen Sie sich jedoch bitte, ob wir Ihr Gebiet abdecken.</p>
 
             {/* Another Section START */}
-            <h1 className="display-5 fw-bold my-4">Wir bieten folgenden Fenstereinbau und Türeinbauservice an</h1>
+            <h3 className="display-5 fw-bold my-4">Wir bieten folgenden Fenstereinbau und Türeinbauservice an</h3>
             <ul className="uber-ul">
-              <li className="fs-5 mb-2">Einbau von Kunststofffenster / PVC-Fenster</li>
-              <li className="fs-5 mb-2">Einbau von Holzfenster,</li>
-              <li className="fs-5 mb-2">Einbau von Aluminiumfenster,</li>
-              <li className="fs-5 mb-2">Einbau von Schallschutzfenster,</li>
-              <li className="fs-5 mb-2">Einbau von Haustüren,</li>
-              <li className="fs-5 mb-2">Einbau von Balkontüren,</li>
-              <li className="fs-5 mb-2">und vieles mehr!</li>
+              <li className="nrltx">Einbau von Kunststofffenster / PVC-Fenster</li>
+              <li className="nrltx">Einbau von Holzfenster,</li>
+              <li className="nrltx">Einbau von Aluminiumfenster,</li>
+              <li className="nrltx">Einbau von Schallschutzfenster,</li>
+              <li className="nrltx">Einbau von Haustüren,</li>
+              <li className="nrltx">Einbau von Balkontüren,</li>
+              <li className="nrltx">und vieles mehr!</li>
             </ul>
 
-            <h1 className="display-5 fw-bold my-4">Fenster- und Türmontageservice in {context.data}</h1>
+            <h3 className="display-5 fw-bold my-4">Fenster- und Türmontageservice in {context.data}</h3>
             <p className="fs-5">Wir verstehen, dass der Kauf von Ersatz- oder neuen Fenstern und Hartholztüren nur die halbe Miete ist, der Einbau Ihrer neuen Fenster und Türen die andere Hälfte.</p>
 
             <p className="fs-5">Bei Pro Handwerker ihrem Service für Türeinbau und Fenstereinbau in {context.data} können wir allen unseren Kunden einen vollständigen Fenster- oder Türinstallationsservice anbieten. Die Nutzung unseres Service ist nicht nur schneller, als selbst jemanden zu finden, sondern auch einfacher, da unser Team die Produkte bereits kennt, was den Installationsprozess für Sie so viel reibungsloser und problemloser macht.</p>
@@ -108,7 +108,7 @@ const City = (context) => {
             <p className="fs-5">von der Installation einzelner Fenster bis hin zum Austausch von Fenstern und Türen im ganzen Haus. Unsere umfangreiche Erfahrung im Türeinbau und Fenstereinbau in {context.data} in dieser Branche bedeutet, dass wir nicht nur zuverlässig sind, sondern auch über einen etablierten, qualitativ hochwertigen und freundlichen Kundenservice verfügen, der eine reibungslose Kundenabwicklung von der Auswahl Ihres Fenster- oder Türdesigns bis hin zum Einbau Ihres neuen Fensters oder Ihrer neuen Tür gewährleistet.</p>
 
 
-            <h1 className="display-5 fw-bold my-4">Professioneller Tür und Fenstereinbauservice in {context.data}</h1>
+            <h3 className="display-5 fw-bold my-4">Professioneller Tür und Fenstereinbauservice in {context.data}</h3>
             <p className="fs-5">Unser hochqualifiziertes Montageteam in {context.data} sorgt dafür, dass alle Ihre Fenster und Türen fachgerecht eingebaut werden und garantiert Ihnen über Jahre hinweg ein wartungsfreies Fenster oder eine wartungsfreie Tür.</p>
             
             <p className="fs-5">Für ein genaues Angebot wenden Sie sich bitte an unser Team , das Ihnen den von uns angebotenen Installationsservice sowie die Preise für Fenster, Türen und Installationskosten erläutern wird.</p>

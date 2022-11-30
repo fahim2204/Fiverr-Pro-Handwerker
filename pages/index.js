@@ -6,13 +6,16 @@ import Contact from "../components/contact";
 import Navbar from "../components/header/navbar";
 import Link from "next/link";
 
-
 export default function Home() {
   return (
     <>
       <Head>
         <title>Impressum ❤️ Pro Handwerker</title>
         <meta name="robots" content="index,follow" />
+        <meta
+          name="description"
+          content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`}
+        />
         <link rel="canonical" href="https://pro-handwerker.de" />
       </Head>
       <header className="hero-img">
@@ -45,7 +48,7 @@ export default function Home() {
               <Link href={"/fliesenleger"}>
                 <div className="rounded-1 shadow-sm border p-3">
                   <div className="">
-                    <img src="img/bild-2.svg" alt="" />
+                    <Image src="img/bild-2.svg" alt="fliesenleger" height={80} width={126}/>
                   </div>
                   <p className="fw-semibold fs-5 text-center">Fliesenleger</p>
                 </div>
@@ -55,7 +58,7 @@ export default function Home() {
               <Link href={"/trockenbauer"}>
                 <div className="rounded-1 shadow-sm border p-3">
                   <div className="">
-                    <img className="w-100" src="img/bild-1.svg" alt="" />
+                    <Image className="w-100" src="img/bild-1.svg" alt="" height={80} width={126}/>
                   </div>
                   <p className="fw-semibold fs-5 text-center">Trockenbau</p>
                 </div>
@@ -65,7 +68,7 @@ export default function Home() {
               <Link href={"/fenstereinbau-und-tuereneinbau"}>
                 <div className="rounded-1 shadow-sm border p-3">
                   <div className="">
-                    <img src="img/bild-3.svg" alt="" />
+                    <Image src="img/bild-3.svg" alt="tueren-und-fenster" height={80} width={126}/>
                   </div>
                   <p className="fw-semibold fs-5 text-center">
                     Türen und Fenster
@@ -77,7 +80,7 @@ export default function Home() {
               <Link href={"/garten-und-landschaftsbauer"}>
                 <div className="rounded-1 shadow-sm border p-3">
                   <div className="">
-                    <img src="/img/bild-4.png" alt="" />
+                    <Image src="/img/bild-4.webp" alt="garten-und-landschaftsbau" height={80} width={126}/>
                   </div>
                   <p className="fw-semibold fs-5 text-center">
                     Garten und Landschaftsbau
@@ -94,10 +97,11 @@ export default function Home() {
           <div className="row">
             <div className="col-12 col-md-6 d-flex justify-content-center align-items-center">
               <div className="col-4">
-                <img
+                <Image
                   className="img-fluid rounded shadow-sm"
-                  src="/img/bild-5.png"
-                  alt=""
+                  src="/img/bild-5.webp"
+                  alt="ueber-pro-handwerker"
+                  height={100} width={152}
                 />
               </div>
             </div>
@@ -109,10 +113,10 @@ export default function Home() {
                 Über Pro Handwerker
               </h1>
               <p className="fs-5 pb-4 mb-4 border-bottom">
-                Pro Handwerker bietet professionelle
-                Handwerkdienstleistungen. Unsere Handerker Experten
-                ermöglichen es, einen branchenführenden Service zu bieten, wir
-                haben Lösungen für Gewerbe- und Privatkunden..
+                Pro Handwerker bietet professionelle Handwerkdienstleistungen.
+                Unsere Handerker Experten ermöglichen es, einen
+                branchenführenden Service zu bieten, wir haben Lösungen für
+                Gewerbe- und Privatkunden..
               </p>
               <ul className="uber-ul">
                 <li className="fs-6">Pünktlich und zuverlässig</li>
@@ -125,7 +129,6 @@ export default function Home() {
       </section>
 
       <Contact />
-
     </>
   );
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -9,7 +10,7 @@ function Navbar() {
               href={"/"}
               className="navbar-brand me-auto order-0"
             >
-              <img className="ps-3" src="/img/logo.png" alt="logo" height={75} />
+              <Image src="/img/logo.webp" alt="logo" height={75} width={99} />
             </Link>
   
             <div className="collapse navbar-collapse py-3  order-2 order-lg-1"

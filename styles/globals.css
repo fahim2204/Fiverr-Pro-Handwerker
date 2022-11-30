@@ -18,7 +18,7 @@ a {
 
 .hero-img {
     width: 100%;
-    background-image: url("../public/img/hero-img.jpg");
+    background-image: url("../public/img/hero-img.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,4 +145,36 @@ a {
 .city-box:hover {
     color: #fe9532 !important;
     transition: all 0.3s;
+}
+
+/* text-center display-3 fw-bold text-white */
+.title-text {
+    text-align: center !important;
+    font-weight: 700 !important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* fs-5 mb-2 */
+.nrltx {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* txt2 */
+.txt2 {
+    text-align: center !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+
+/* text-center fw-bold fs-1 text-white pt-4 */
+.txt3 {
+    text-align: center !important;
+    font-weight: 700 !important;
+    padding-top: 1.5rem !important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }

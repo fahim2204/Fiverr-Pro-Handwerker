@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="container pb-1 pt-5">
           <div className="row d-flex justify-content-center">
             <div className="col-12 col-md-4 mb-4 mb-md-0 d-flex justify-content-center">
-              <Link href={"/"}><img src="img/logo.png" alt="" height={75} /></Link>
+              <Link href={"/"}><Image src="/img/logo.webp" alt="logo" height={75} width={99} /></Link>
             </div>
             <div className="col-6 col-md-4">
               <p className="fs-5">Dienstleistungen</p>

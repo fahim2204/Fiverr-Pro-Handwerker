@@ -4,9 +4,9 @@ function Contact() {
     <>
     <section className="mt-5 bg-warning">
         <div className="container py-5">
-          <h1 className="fw-bold display-5 mb-3 text-center">
+          <h3 className="fw-bold display-5 mb-3 text-center">
             Wir beraten sie kostenlos
-          </h1>
+          </h3>
           <p className="fs-5 text-center">
             Rufen Sie jetzt an, um eine fachmännische Beratung zu erhalten
           </p>

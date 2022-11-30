@@ -8,13 +8,14 @@ const UeberUns = () => {
             <Head>
                 <title>Über uns ❤️ Pro Handwerker</title>
                 <meta name="robots" content="index,follow" />
+                <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`} />
                 <link rel="canonical" href="https://pro-handwerker.de/ueber-uns" />
             </Head>
             <header className="hero-img">
                 <Navbar />
                 <div className="container-fluid mt-5 pt-5">
                     <div className="container">
-                        <h1 className="text-center display-3 fw-bold text-white">Über Uns</h1>
+                        <h1 className="title-text display-3">Über Uns</h1>
                     </div>
                 </div>
             </header>
