@@ -24,12 +24,12 @@ const Region = () => {
                             Stadt wählen</h1>
                         <h2 className="txt2">Trockenbauer Experte -
                             Stadt wählen | Kostenlose fachmännische Beratung | Faire Preis</h2>
-                        <h1 className="txt3 fs-1"><a href="tel:01748997115">0174 899-7115</a></h1>
+                        <h3 className="txt3 fs-1"><a href="tel:01748997115">0174 899-7115</a></h3>
                     </div>
                 </div>
             </header>
             <div className="container">
-                <h1 className="fs-2 py-4 mt-3 fw-bold">Finden Sie Ihren Trockenbauer Service in Ihrer Stadt</h1>
+                <h3 className="fs-2 py-4 mt-3 fw-bold">Finden Sie Ihren Trockenbauer Service in Ihrer Stadt</h3>
                 <div id="alphaLink" className="d-flex bg-secondary text-white px-2 mb-4 align-items-center flex-wrap">
                     {
                         alpha.map(letter => {

@@ -46,7 +46,7 @@ const City = (context) => {
       </header>
       <main>
         <div className="container pt-5">
-          <h1 className="display-5 fw-bold mb-4">Garten und Landschaftsbauer Service in {context.data}<br/><span className="fs-2">innovative Gartengestaltung</span></h1>
+          <h3 className="display-5 fw-bold mb-4">Garten und Landschaftsbauer Service in {context.data}<br/><span className="fs-2">innovative Gartengestaltung</span></h3>
           <div className="col-12 col-md-10 col-lg-8">
             <p className="fs-5">Terrassenbau - Terrassensanierung - Pflasterarbeiten - Garten und Landschaftsbauer Service in {context.data}</p>
 

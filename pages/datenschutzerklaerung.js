@@ -21,7 +21,7 @@ const Datenschutzerklaerung = () => {
             </header>
 
             <div className="container pt-5">
-                <h1 className="display-5 fw-bold mb-4">Datenschutz­erklärung</h1>
+                <h3 className="display-5 fw-bold mb-4">Datenschutz­erklärung</h3>
                 <div className="col-12 col-md-10 col-lg-8">
                     <h2 className="fw-bold fs-2">
                         1. Datenschutz auf einen Blick Allgemeine Hinweise

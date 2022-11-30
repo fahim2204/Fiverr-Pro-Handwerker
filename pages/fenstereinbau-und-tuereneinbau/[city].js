@@ -46,7 +46,7 @@ const City = (context) => {
       </header>
       <main>
         <div className="container pt-5">
-          <h1 className="display-5 fw-bold mb-4">Fenstereinbau und Türeneinbau Service in {context.data}</h1>
+          <h3 className="display-5 fw-bold mb-4">Fenstereinbau und Türeneinbau Service in {context.data}</h3>
           <div className="col-12 col-md-10 col-lg-8">
             <p className="fs-5"> „Wir können auch Fenster - und Türinstallationsdienste mit Ihren Produkten anbieten.</p>
 
@@ -79,7 +79,7 @@ const City = (context) => {
     
 
             {/* Another Section START */}
-            <h1 className="display-5 fw-bold my-4">Fenstereinbau und Türeneinbau Service in {context.data}</h1>
+            <h3 className="display-5 fw-bold my-4">Fenstereinbau und Türeneinbau Service in {context.data}</h3>
             <p className="fs-5">Wenn die Fenster und Türen richtig installiert werden, erhöhen sie den Wert Ihres Hauses und seine Sicherheit, während sie auch die Isoliereigenschaften Ihres Hauses verbessern, also müssen Sie die besten Fenster- und Türinstallateure wählen.</p>
 
             <p className="fs-5">Wenn Sie sich für unseren Montageservice für Türeinbau und Fenstereinbau in {context.data} entscheiden, entscheiden Sie sich dafür, Ihre Fenster und Türen von unserem hochspezialisierten Team von Fenster- und Türmonteuren einbauen zu lassen, das Ihnen höchste Servicequalität und Liebe zum Detail garantiert.</p>

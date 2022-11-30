@@ -42,7 +42,7 @@ const City = (context) => {
         <Navbar />
         <div className="container-fluid mt-5 pt-5">
           <div className="container">
-            <h1 className="title-text display-3">{`Trockenbauer Service in ${context.data}`}</h1>
+            <h3 className="title-text display-3">{`Trockenbauer Service in ${context.data}`}</h3>
             <h2 className="txt2">{`Trockenbauer Experte in ${context.data} | Kostenlose fachmännische Beratung | Faire Preis`}</h2>
             <h3 className="txt3 fs-1">
               <a href="tel:01748997115">0174 899-7115</a>

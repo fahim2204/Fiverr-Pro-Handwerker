@@ -63,9 +63,9 @@ const City = (context) => {
             </span>{" "}
             / <span>{context.data}</span>
           </p>
-          <h1 className="display-5 fw-bold mb-4">
+          <h3 className="display-5 fw-bold mb-4">
             Fliesenleger Service in {context.data}
-          </h1>
+          </h3>
           <div className="col-12 col-md-10 col-lg-8">
             <p className="fs-5">
               {" "}

@@ -109,9 +109,9 @@ export default function Home() {
               <p className="mb-2 text-muted">
                 <small>Warum Sie uns wählen</small>
               </p>
-              <h1 className="fs-1 fw-bold pb-4 mb-4 border-bottom">
+              <h3 className="fs-1 fw-bold pb-4 mb-4 border-bottom">
                 Über Pro Handwerker
-              </h1>
+              </h3>
               <p className="fs-5 pb-4 mb-4 border-bottom">
                 Pro Handwerker bietet professionelle Handwerkdienstleistungen.
                 Unsere Handerker Experten ermöglichen es, einen

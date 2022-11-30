@@ -20,15 +20,15 @@ const Kontakt = () => {
                 </div>
             </header>
             <div className="container pt-5">
-                <h1 className="display-5 fw-bold mb-4">Bleiben Sie mit uns in Kontakt</h1>
+                <h3 className="display-5 fw-bold mb-4">Bleiben Sie mit uns in Kontakt</h3>
                 <p className="fs-5 mb-5">Sie können uns auch telefonisch erreichen oder eine E-Mail senden</p>
-                <h1 className="display-6 fw-bold mb-2">Telefon</h1>
+                <h3 className="display-6 fw-bold mb-2">Telefon</h3>
                 <p className="fs-5">Telefon : 0174 899-7115</p>
-                <h1 className="display-6 fw-bold mb-2 mt-2">Addresse</h1>
+                <h3 className="display-6 fw-bold mb-2 mt-2">Addresse</h3>
                 <p className="fs-5 mb-1">Giuseppe Licopoli</p>
                 <p className="fs-5 mb-1">Neuenkamperstr. 32</p>
                 <p className="fs-5">42657 Solingen</p>
-                <h1 className="display-6 fw-bold mb-2 mt-2">Email</h1>
+                <h3 className="display-6 fw-bold mb-2 mt-2">Email</h3>
                 <p className="fs-5 mb-5">info@prohandwerker.de</p>
             </div>
 

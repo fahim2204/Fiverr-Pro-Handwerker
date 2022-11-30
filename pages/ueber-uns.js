@@ -20,7 +20,7 @@ const UeberUns = () => {
                 </div>
             </header>
             <div className="container pt-5">
-                <h1 className="display-5 fw-bold mb-4">Über uns</h1>
+                <h3 className="display-5 fw-bold mb-4">Über uns</h3>
                 <div className="col-12 col-md-10 col-lg-8">
                     <p className="fs-5"> Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handverkehrsdienstleistungen.</p>
                     <p className="fs-5"> Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz. Tätig sind wir bundesweit.<br />
