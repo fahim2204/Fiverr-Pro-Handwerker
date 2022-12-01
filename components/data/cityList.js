@@ -1,4 +1,4 @@
-export const SimpliFy = text => text.toUpperCase().replace("Ä","ae").replace("Ü","ue").replace("Ö","oe").replace("ẞ","ss").toLowerCase();
+export const SimpliFy = text => text.toUpperCase().replace("Ä","ae").replace("Ü","ue").replace("Ö","oe").replace("ss","ss").toLowerCase();
 export const GetCityName = text => CityList.find(x=>x.cityLink==text).city;
 export const CityList = [
     {
@@ -1068,7 +1068,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Bockenheim-an-der-Weinstraße",
+        "city": "Bockenheim-an-der-Weinstrasse",
         "cityLink": "bockenheim-an-der-weinstrasse"
     },
     {
@@ -1993,7 +1993,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Dittelsheim-Heßloch",
+        "city": "Dittelsheim-Hessloch",
         "cityLink": "dittelsheim-hessloch"
     },
     {
@@ -2588,12 +2588,12 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Eßlingen",
+        "city": "Esslingen",
         "cityLink": "esslingen"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Eßweiler",
+        "city": "Essweiler",
         "cityLink": "essweiler"
     },
     {
@@ -2653,7 +2653,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Eußerthal",
+        "city": "Eusserthal",
         "cityLink": "eusserthal"
     },
     {
@@ -2788,7 +2788,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Fließem",
+        "city": "Fliessem",
         "cityLink": "fliessem"
     },
     {
@@ -2808,7 +2808,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Flußbach",
+        "city": "Flussbach",
         "cityLink": "flussbach"
     },
     {
@@ -2838,7 +2838,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Forst-an-der-Weinstraße",
+        "city": "Forst-an-der-Weinstrasse",
         "cityLink": "forst-an-der-weinstrasse"
     },
     {
@@ -2998,7 +2998,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Fußgönheim",
+        "city": "Fussgönheim",
         "cityLink": "fussgoenheim"
     },
     {
@@ -3453,57 +3453,57 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großbundenbach",
+        "city": "Grossbundenbach",
         "cityLink": "grossbundenbach"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großfischlingen",
+        "city": "Grossfischlingen",
         "cityLink": "grossfischlingen"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großholbach",
+        "city": "Grossholbach",
         "cityLink": "grossholbach"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großkampenberg",
+        "city": "Grosskampenberg",
         "cityLink": "grosskampenberg"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großkarlbach",
+        "city": "Grosskarlbach",
         "cityLink": "grosskarlbach"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großlangenfeld",
+        "city": "Grosslangenfeld",
         "cityLink": "grosslangenfeld"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großlittgen",
+        "city": "Grosslittgen",
         "cityLink": "grosslittgen"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großmaischeid",
+        "city": "Grossmaischeid",
         "cityLink": "grossmaischeid"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großniedesheim",
+        "city": "Grossniedesheim",
         "cityLink": "grossniedesheim"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großseifen",
+        "city": "Grossseifen",
         "cityLink": "grossseifen"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Großsteinhausen",
+        "city": "Grosssteinhausen",
         "cityLink": "grosssteinhausen"
     },
     {
@@ -3818,7 +3818,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Haßloch",
+        "city": "Hassloch",
         "cityLink": "hassloch"
     },
     {
@@ -4168,7 +4168,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Heßheim",
+        "city": "Hessheim",
         "cityLink": "hessheim"
     },
     {
@@ -4379,7 +4379,7 @@ export const CityList = [
     {
         "region": "Rheinland-Pfalz",
         "city": "Höheinöd",
-        "cityLink": "hoeheinöd"
+        "cityLink": "hoeheinoed"
     },
     {
         "region": "Rheinland-Pfalz",
@@ -5233,7 +5233,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Kirchheim-an-der-Weinstraße",
+        "city": "Kirchheim-an-der-Weinstrasse",
         "cityLink": "kirchheim-an-der-weinstrasse"
     },
     {
@@ -5993,7 +5993,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Ließem",
+        "city": "Liessem",
         "cityLink": "liessem"
     },
     {
@@ -6378,7 +6378,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Maßweiler",
+        "city": "Massweiler",
         "cityLink": "massweiler"
     },
     {
@@ -6438,7 +6438,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Mayschoß",
+        "city": "Mayschoss",
         "cityLink": "mayschoss"
     },
     {
@@ -7078,8 +7078,8 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Neitersen-(incl.-Obernau)",
-        "cityLink": "neitersen-(incl.-obernau)"
+        "city": "Neitersen-(Obernau)",
+        "cityLink": "neitersen-(obernau)"
     },
     {
         "region": "Rheinland-Pfalz",
@@ -7193,7 +7193,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Neustadt-an-der-Weinstraße",
+        "city": "Neustadt-an-der-Weinstrasse",
         "cityLink": "neustadt-an-der-weinstrasse"
     },
     {
@@ -7403,7 +7403,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Niederroßbach",
+        "city": "Niederrossbach",
         "cityLink": "niederrossbach"
     },
     {
@@ -7633,12 +7633,12 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Nußbach",
+        "city": "Nussbach",
         "cityLink": "nussbach"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Nußbaum",
+        "city": "Nussbaum",
         "cityLink": "nussbaum"
     },
     {
@@ -7883,7 +7883,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Oberroßbach",
+        "city": "Oberrossbach",
         "cityLink": "oberrossbach"
     },
     {
@@ -8283,7 +8283,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Pickließem",
+        "city": "Pickliessem",
         "cityLink": "pickliessem"
     },
     {
@@ -8938,12 +8938,12 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Roßbach",
+        "city": "Rossbach",
         "cityLink": "rossbach"
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Roßbach",
+        "city": "Rossbach",
         "cityLink": "rossbach"
     },
     {
@@ -9348,7 +9348,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Schloßböckelheim",
+        "city": "Schlossböckelheim",
         "cityLink": "schlossboeckelheim"
     },
     {
@@ -9363,7 +9363,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Schmißberg",
+        "city": "Schmissberg",
         "cityLink": "schmissberg"
     },
     {
@@ -10108,7 +10108,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Straßenhaus",
+        "city": "Strassenhaus",
         "cityLink": "strassenhaus"
     },
     {
@@ -10363,7 +10363,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Ueß",
+        "city": "Uess",
         "cityLink": "uess"
     },
     {
@@ -10518,7 +10518,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Vettelschoß",
+        "city": "Vettelschoss",
         "cityLink": "vettelschoss"
     },
     {
@@ -10583,7 +10583,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Wachenheim-an-der-Weinstraße",
+        "city": "Wachenheim-an-der-Weinstrasse",
         "cityLink": "wachenheim-an-der-weinstrasse"
     },
     {
@@ -10933,7 +10933,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Weißenthurm",
+        "city": "Weissenthurm",
         "cityLink": "weissenthurm"
     },
     {
@@ -11168,7 +11168,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Wilzenberg-Hußweiler",
+        "city": "Wilzenberg-Hussweiler",
         "cityLink": "wilzenberg-hussweiler"
     },
     {
@@ -11313,7 +11313,7 @@ export const CityList = [
     },
     {
         "region": "Rheinland-Pfalz",
-        "city": "Wißmannsdorf",
+        "city": "Wissmannsdorf",
         "cityLink": "wissmannsdorf"
     },
     {
@@ -12558,7 +12558,7 @@ export const CityList = [
     },
     {
         "region": "Nordrhein-Westfalen",
-        "city": "Schloß-Holte-Stukenbrock",
+        "city": "Schloss-Holte-Stukenbrock",
         "cityLink": "schloss-holte-stukenbrock"
     },
     {
@@ -13213,7 +13213,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Barßel",
+        "city": "Barssel",
         "cityLink": "barssel"
     },
     {
@@ -13463,7 +13463,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Börßum",
+        "city": "Börssum",
         "cityLink": "boerssum"
     },
     {
@@ -13573,8 +13573,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Bruchhausen-Vilsen-(incl.-Süstedt)",
-        "cityLink": "bruchhausen-vilsen-(incl.-suestedt)"
+        "city": "Bruchhausen-Vilsen-(Süstedt)",
+        "cityLink": "bruchhausen-vilsen-(suestedt)"
     },
     {
         "region": "Niedersachsen",
@@ -13653,8 +13653,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Cadenberge-(incl.-Geversdorf)",
-        "cityLink": "cadenberge-(incl.-geversdorf)"
+        "city": "Cadenberge-(Geversdorf)",
+        "cityLink": "cadenberge-(geversdorf)"
     },
     {
         "region": "Niedersachsen",
@@ -14193,7 +14193,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Faßberg",
+        "city": "Fassberg",
         "cityLink": "fassberg"
     },
     {
@@ -14323,8 +14323,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Geestland-(Langen---Bad-Bederkesa)",
-        "cityLink": "geestland-(langen---bad-bederkesa)"
+        "city": "Geestland-(Langen-Bad-Bederkesa)",
+        "cityLink": "geestland-(langen-bad-bederkesa)"
     },
     {
         "region": "Niedersachsen",
@@ -14468,47 +14468,47 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Groß-Berßen",
+        "city": "Gross-Berssen",
         "cityLink": "gross-berssen"
     },
     {
         "region": "Niedersachsen",
-        "city": "Großefehn",
+        "city": "Grossefehn",
         "cityLink": "grossefehn"
     },
     {
         "region": "Niedersachsen",
-        "city": "Großenkneten",
+        "city": "Grossenkneten",
         "cityLink": "grossenkneten"
     },
     {
         "region": "Niedersachsen",
-        "city": "Großenwörden",
+        "city": "Grossenwörden",
         "cityLink": "grossenwoerden"
     },
     {
         "region": "Niedersachsen",
-        "city": "Großheide",
+        "city": "Grossheide",
         "cityLink": "grossheide"
     },
     {
         "region": "Niedersachsen",
-        "city": "Groß-Ippener",
+        "city": "Gross-Ippener",
         "cityLink": "gross-ippener"
     },
     {
         "region": "Niedersachsen",
-        "city": "Groß-Meckelsen",
+        "city": "Gross-Meckelsen",
         "cityLink": "gross-meckelsen"
     },
     {
         "region": "Niedersachsen",
-        "city": "Groß-Oesingen",
+        "city": "Gross-Oesingen",
         "cityLink": "gross-oesingen"
     },
     {
         "region": "Niedersachsen",
-        "city": "Groß-Twülpstedt",
+        "city": "Gross-Twülpstedt",
         "cityLink": "gross-twuelpstedt"
     },
     {
@@ -14693,7 +14693,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Haßbergen",
+        "city": "Hassbergen",
         "cityLink": "hassbergen"
     },
     {
@@ -14763,7 +14763,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Heeßen",
+        "city": "Heessen",
         "cityLink": "heessen"
     },
     {
@@ -14873,7 +14873,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Heuerßen",
+        "city": "Heuerssen",
         "cityLink": "heuerssen"
     },
     {
@@ -15238,7 +15238,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Klein-Berßen",
+        "city": "Klein-Berssen",
         "cityLink": "klein-berssen"
     },
     {
@@ -16028,7 +16028,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Osloß",
+        "city": "Osloss",
         "cityLink": "osloss"
     },
     {
@@ -16228,7 +16228,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Reeßum",
+        "city": "Reessum",
         "cityLink": "reessum"
     },
     {
@@ -16483,7 +16483,7 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Scheeßel",
+        "city": "Scheessel",
         "cityLink": "scheessel"
     },
     {
@@ -16678,8 +16678,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Söllingen-(incl.-Ingeleben,-Twieflingen)",
-        "cityLink": "soellingen-(incl.-ingeleben,-twieflingen)"
+        "city": "Söllingen-(Ingeleben-Twieflingen)",
+        "cityLink": "soellingen-(ingeleben-twieflingen)"
     },
     {
         "region": "Niedersachsen",
@@ -16848,8 +16848,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Südheide-(Hermannsburg---Unterlüß)",
-        "cityLink": "suedheide-(hermannsburg---unterlüss)"
+        "city": "Südheide-(Hermannsburg-Unterlüss)",
+        "cityLink": "suedheide-(hermannsburg-unterluess)"
     },
     {
         "region": "Niedersachsen",
@@ -17543,8 +17543,8 @@ export const CityList = [
     },
     {
         "region": "Niedersachsen",
-        "city": "Wurster-Nordseeküste-(Nordholz---Dorum)",
-        "cityLink": "wurster-nordseekueste-(nordholz---dorum)"
+        "city": "Wurster-Nordseeküste-(Nordholz-Dorum)",
+        "cityLink": "wurster-nordseekueste-(nordholz-dorum)"
     },
     {
         "region": "Niedersachsen",
@@ -17588,13 +17588,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "AllendorfNiedersachsen-(Eder)",
-        "cityLink": "allendorfniedersachsen-(eder)"
+        "city": "Allendorf-(Eder)",
+        "cityLink": "allendorf-(eder)"
     },
     {
         "region": "Hessen",
-        "city": "AllendorfNiedersachsen-(Lumda)",
-        "cityLink": "allendorfniedersachsen-(lumda)"
+        "city": "Allendorf-(Lumda)",
+        "cityLink": "allendorf-(lumda)"
     },
     {
         "region": "Hessen",
@@ -17628,7 +17628,7 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "Aßlar",
+        "city": "Asslar",
         "cityLink": "asslar"
     },
     {
@@ -17638,98 +17638,98 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Arolsen",
-        "cityLink": "badniedersachsen-arolsen"
+        "city": "Bad-Arolsen",
+        "cityLink": "bad-arolsen"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Camberg",
-        "cityLink": "badniedersachsen-camberg"
+        "city": "Bad-Camberg",
+        "cityLink": "bad-camberg"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Emstal",
-        "cityLink": "badniedersachsen-emstal"
+        "city": "Bad-Emstal",
+        "cityLink": "bad-emstal"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Endbach",
-        "cityLink": "badniedersachsen-endbach"
+        "city": "Bad-Endbach",
+        "cityLink": "bad-endbach"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Hersfeld",
-        "cityLink": "badniedersachsen-hersfeld"
+        "city": "Bad-Hersfeld",
+        "cityLink": "bad-hersfeld"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-HomburgNiedersachsen-v.Niedersachsen-d.Niedersachsen-Höhe",
-        "cityLink": "badniedersachsen-homburgniedersachsen-v.niedersachsen-d.niedersachsen-hoehe"
+        "city": "bad-homburg",
+        "cityLink": "bad-homburg"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Karlshafen",
-        "cityLink": "badniedersachsen-karlshafen"
+        "city": "Bad-Karlshafen",
+        "cityLink": "bad-karlshafen"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-König",
-        "cityLink": "badniedersachsen-koenig"
+        "city": "Bad-König",
+        "cityLink": "bad-koenig"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Nauheim",
-        "cityLink": "badniedersachsen-nauheim"
+        "city": "Bad-Nauheim",
+        "cityLink": "bad-nauheim"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Orb",
-        "cityLink": "badniedersachsen-orb"
+        "city": "Bad-Orb",
+        "cityLink": "bad-orb"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Salzschlirf",
-        "cityLink": "badniedersachsen-salzschlirf"
+        "city": "Bad-Salzschlirf",
+        "cityLink": "bad-salzschlirf"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Schwalbach",
-        "cityLink": "badniedersachsen-schwalbach"
+        "city": "Bad-Schwalbach",
+        "cityLink": "bad-schwalbach"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-SodenNiedersachsen-amNiedersachsen-Taunus",
-        "cityLink": "badniedersachsen-sodenniedersachsen-amniedersachsen-taunus"
+        "city": "Bad Soden am Taunus",
+        "cityLink": "bad Soden am taunus"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Soden-Salmünster",
-        "cityLink": "badniedersachsen-soden-salmuenster"
+        "city": "Bad-Soden-Salmünster",
+        "cityLink": "bad-soden-salmuenster"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Sooden-Allendorf",
-        "cityLink": "badniedersachsen-sooden-allendorf"
+        "city": "Bad-Sooden-Allendorf",
+        "cityLink": "bad-sooden-allendorf"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Vilbel",
-        "cityLink": "badniedersachsen-vilbel"
+        "city": "Bad-Vilbel",
+        "cityLink": "bad-vilbel"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Wildungen",
-        "cityLink": "badniedersachsen-wildungen"
+        "city": "Bad-Wildungen",
+        "cityLink": "bad-wildungen"
     },
     {
         "region": "Hessen",
-        "city": "BadNiedersachsen-Zwesten",
-        "cityLink": "badniedersachsen-zwesten"
+        "city": "Bad-Zwesten",
+        "cityLink": "bad-zwesten"
     },
     {
         "region": "Hessen",
-        "city": "BattenbergNiedersachsen-(Eder)",
-        "cityLink": "battenbergniedersachsen-(eder)"
+        "city": "Battenberg-(Eder)",
+        "cityLink": "battenberg-(eder)"
     },
     {
         "region": "Hessen",
@@ -17778,8 +17778,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "BiebesheimNiedersachsen-amNiedersachsen-Rhein",
-        "cityLink": "biebesheimniedersachsen-amniedersachsen-rhein"
+        "city": "Biebesheim-am-Rhein",
+        "cityLink": "biebesheim-am-rhein"
     },
     {
         "region": "Hessen",
@@ -17808,8 +17808,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "BorkenNiedersachsen-(Hessen)",
-        "cityLink": "borkenniedersachsen-(hessen)"
+        "city": "Borken-(Hessen)",
+        "cityLink": "borken-(hessen)"
     },
     {
         "region": "Hessen",
@@ -17833,8 +17833,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "BreitenbachNiedersachsen-a.Niedersachsen-Herzberg",
-        "cityLink": "breitenbachniedersachsen-a.niedersachsen-herzberg"
+        "city": "Breitenbach-am-Herzberg",
+        "cityLink": "breitenbach-am-herzberg"
     },
     {
         "region": "Hessen",
@@ -18013,8 +18013,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "EhrenbergNiedersachsen-(Rhön)",
-        "cityLink": "ehrenbergniedersachsen-(rhoen)"
+        "city": "Ehrenberg-(Rhön)",
+        "cityLink": "ehrenberg-(rhoen)"
     },
     {
         "region": "Hessen",
@@ -18043,8 +18043,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "EltvilleNiedersachsen-amNiedersachsen-Rhein",
-        "cityLink": "eltvilleniedersachsen-amniedersachsen-rhein"
+        "city": "Eltville-am-Rhein",
+        "cityLink": "eltville-am-rhein"
     },
     {
         "region": "Hessen",
@@ -18128,8 +18128,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "FlörsheimNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "floersheimniedersachsen-amniedersachsen-main"
+        "city": "Flörsheim-am-Main",
+        "cityLink": "floersheim-am-main"
     },
     {
         "region": "Hessen",
@@ -18143,13 +18143,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "FrankenbergNiedersachsen-(Eder)",
-        "cityLink": "frankenbergniedersachsen-(eder)"
+        "city": "Frankenberg-(Eder)",
+        "cityLink": "frankenberg-(eder)"
     },
     {
         "region": "Hessen",
-        "city": "FrankfurtNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "frankfurtniedersachsen-amniedersachsen-main"
+        "city": "Frankfurt-am-Main",
+        "cityLink": "frankfurt-am-main"
     },
     {
         "region": "Hessen",
@@ -18168,8 +18168,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "FriedbergNiedersachsen-(Hessen)",
-        "cityLink": "friedbergniedersachsen-(hessen)"
+        "city": "Friedberg-(Hessen)",
+        "cityLink": "friedberg-(hessen)"
     },
     {
         "region": "Hessen",
@@ -18233,13 +18233,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "GemündenNiedersachsen-(Felda)",
-        "cityLink": "gemuendenniedersachsen-(felda)"
+        "city": "Gemünden-(Felda)",
+        "cityLink": "gemuenden-(felda)"
     },
     {
         "region": "Hessen",
-        "city": "GemündenNiedersachsen-(Wohra)",
-        "cityLink": "gemuendenniedersachsen-(wohra)"
+        "city": "Gemünden-(Wohra)",
+        "cityLink": "gemuenden-(wohra)"
     },
     {
         "region": "Hessen",
@@ -18248,12 +18248,12 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "GersfeldNiedersachsen-(Rhön)",
-        "cityLink": "gersfeldniedersachsen-(rhoen)"
+        "city": "Gersfeld-(Rhön)",
+        "cityLink": "gersfeld-(rhoen)"
     },
     {
         "region": "Hessen",
-        "city": "Gießen",
+        "city": "Giessen",
         "cityLink": "giessen"
     },
     {
@@ -18323,42 +18323,42 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "Großalmerode",
+        "city": "Grossalmerode",
         "cityLink": "grossalmerode"
     },
     {
         "region": "Hessen",
-        "city": "Groß-Bieberau",
+        "city": "Gross-Bieberau",
         "cityLink": "gross-bieberau"
     },
     {
         "region": "Hessen",
-        "city": "Großenlüder",
+        "city": "Grossenlüder",
         "cityLink": "grossenlueder"
     },
     {
         "region": "Hessen",
-        "city": "Groß-Gerau",
+        "city": "Gross-Gerau",
         "cityLink": "gross-gerau"
     },
     {
         "region": "Hessen",
-        "city": "Großkrotzenburg",
+        "city": "Grosskrotzenburg",
         "cityLink": "grosskrotzenburg"
     },
     {
         "region": "Hessen",
-        "city": "Groß-Rohrheim",
+        "city": "Gross-Rohrheim",
         "cityLink": "gross-rohrheim"
     },
     {
         "region": "Hessen",
-        "city": "Groß-Umstadt",
+        "city": "Gross-Umstadt",
         "cityLink": "gross-umstadt"
     },
     {
         "region": "Hessen",
-        "city": "Groß-Zimmern",
+        "city": "Gross-Zimmern",
         "cityLink": "gross-zimmern"
     },
     {
@@ -18398,8 +18398,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HainaNiedersachsen-(Kloster)",
-        "cityLink": "hainaniedersachsen-(kloster)"
+        "city": "Haina-(Kloster)",
+        "cityLink": "haina-(kloster)"
     },
     {
         "region": "Hessen",
@@ -18423,13 +18423,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HattersheimNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "hattersheimniedersachsen-amniedersachsen-main"
+        "city": "Hattersheim-am-Main",
+        "cityLink": "hattersheim-am-main"
     },
     {
         "region": "Hessen",
-        "city": "HatzfeldNiedersachsen-(Eder)",
-        "cityLink": "hatzfeldniedersachsen-(eder)"
+        "city": "Hatzfeld-(Eder)",
+        "cityLink": "hatzfeld-(eder)"
     },
     {
         "region": "Hessen",
@@ -18453,8 +18453,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HeppenheimNiedersachsen-(Bergstraße)",
-        "cityLink": "heppenheimniedersachsen-(bergstrasse)"
+        "city": "Heppenheim-(Bergstrasse)",
+        "cityLink": "heppenheim-(bergstrasse)"
     },
     {
         "region": "Hessen",
@@ -18468,8 +18468,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HeringenNiedersachsen-(Werra)",
-        "cityLink": "heringenniedersachsen-(werra)"
+        "city": "Heringen-(Werra)",
+        "cityLink": "heringen-(werra)"
     },
     {
         "region": "Hessen",
@@ -18478,13 +18478,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HessischNiedersachsen-Lichtenau",
-        "cityLink": "hessischniedersachsen-lichtenau"
+        "city": "Hessisch-Lichtenau",
+        "cityLink": "hessisch-lichtenau"
     },
     {
         "region": "Hessen",
-        "city": "HeuchelheimNiedersachsen-a.Niedersachsen-d.Niedersachsen-Lahn",
-        "cityLink": "heuchelheimniedersachsen-a.niedersachsen-d.niedersachsen-lahn"
+        "city": "Heuchelheim-am-d.-Lahn",
+        "cityLink": "heuchelheim-am-d.-lahn"
     },
     {
         "region": "Hessen",
@@ -18498,8 +18498,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HirschhornNiedersachsen-(Neckar)",
-        "cityLink": "hirschhornniedersachsen-(neckar)"
+        "city": "Hirschhorn-(Neckar)",
+        "cityLink": "hirschhorn-(neckar)"
     },
     {
         "region": "Hessen",
@@ -18508,13 +18508,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HochheimNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "hochheimniedersachsen-amniedersachsen-main"
+        "city": "Hochheim-am-Main",
+        "cityLink": "hochheim-am-main"
     },
     {
         "region": "Hessen",
-        "city": "HöchstNiedersachsen-i.Niedersachsen-Odw.",
-        "cityLink": "hoechstniedersachsen-i.niedersachsen-odw."
+        "city": "Höchst im Odenwald",
+        "cityLink": "hoechst-im-odenwald."
     },
     {
         "region": "Hessen",
@@ -18528,8 +18528,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HofheimNiedersachsen-amNiedersachsen-Taunus",
-        "cityLink": "hofheimniedersachsen-amniedersachsen-taunus"
+        "city": "Hofheim-am-Taunus",
+        "cityLink": "hofheim-am-taunus"
     },
     {
         "region": "Hessen",
@@ -18548,13 +18548,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "HombergNiedersachsen-(Efze)",
-        "cityLink": "hombergniedersachsen-(efze)"
+        "city": "Homberg-(Efze)",
+        "cityLink": "homberg-(efze)"
     },
     {
         "region": "Hessen",
-        "city": "HombergNiedersachsen-(Ohm)",
-        "cityLink": "hombergniedersachsen-(ohm)"
+        "city": "Homberg-(Ohm)",
+        "cityLink": "homberg-(ohm)"
     },
     {
         "region": "Hessen",
@@ -18633,8 +18633,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "KelkheimNiedersachsen-(Taunus)",
-        "cityLink": "kelkheimniedersachsen-(taunus)"
+        "city": "Kelkheim-(Taunus)",
+        "cityLink": "kelkheim-(taunus)"
     },
     {
         "region": "Hessen",
@@ -18668,8 +18668,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "KönigsteinNiedersachsen-imNiedersachsen-Taunus",
-        "cityLink": "koenigsteinniedersachsen-imniedersachsen-taunus"
+        "city": "Königstein-im-Taunus",
+        "cityLink": "koenigstein-im-taunus"
     },
     {
         "region": "Hessen",
@@ -18688,8 +18688,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "KronbergNiedersachsen-imNiedersachsen-Taunus",
-        "cityLink": "kronbergniedersachsen-imniedersachsen-taunus"
+        "city": "Kronberg-im-Taunus",
+        "cityLink": "kronberg-im-taunus"
     },
     {
         "region": "Hessen",
@@ -18713,8 +18713,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "LangenNiedersachsen-(Hessen)",
-        "cityLink": "langenniedersachsen-(hessen)"
+        "city": "Langen-(Hessen)",
+        "cityLink": "langen-(hessen)"
     },
     {
         "region": "Hessen",
@@ -18733,18 +18733,18 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "LauterbachNiedersachsen-(Hessen)",
-        "cityLink": "lauterbachniedersachsen-(hessen)"
+        "city": "Lauterbach-(Hessen)",
+        "cityLink": "lauterbach-(hessen)"
     },
     {
         "region": "Hessen",
-        "city": "LautertalNiedersachsen-(Odenwald)",
-        "cityLink": "lautertalniedersachsen-(odenwald)"
+        "city": "Lautertal-(Odenwald)",
+        "cityLink": "lautertal-(odenwald)"
     },
     {
         "region": "Hessen",
-        "city": "LautertalNiedersachsen-(Vogelsberg)",
-        "cityLink": "lautertalniedersachsen-(vogelsberg)"
+        "city": "Lautertal-(Vogelsberg)",
+        "cityLink": "lautertal-(vogelsberg)"
     },
     {
         "region": "Hessen",
@@ -18768,13 +18768,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "LiederbachNiedersachsen-amNiedersachsen-Taunus",
-        "cityLink": "liederbachniedersachsen-amniedersachsen-taunus"
+        "city": "Liederbach-am-Taunus",
+        "cityLink": "liederbach-am-taunus"
     },
     {
         "region": "Hessen",
-        "city": "LimburgNiedersachsen-a.Niedersachsen-d.Niedersachsen-Lahn",
-        "cityLink": "limburgniedersachsen-a.niedersachsen-d.niedersachsen-lahn"
+        "city": "Limburg-am-d.-Lahn",
+        "cityLink": "limburg-am-d.-lahn"
     },
     {
         "region": "Hessen",
@@ -18863,7 +18863,7 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "Meißner",
+        "city": "Meissner",
         "cityLink": "meissner"
     },
     {
@@ -18928,8 +18928,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "MühlheimNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "muehlheimniedersachsen-amniedersachsen-main"
+        "city": "Mühlheim-am-Main",
+        "cityLink": "muehlheim-am-main"
     },
     {
         "region": "Hessen",
@@ -18943,8 +18943,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "MünsterNiedersachsen-(Hessen)",
-        "cityLink": "muensterniedersachsen-(hessen)"
+        "city": "Münster-(Hessen)",
+        "cityLink": "muenster-(hessen)"
     },
     {
         "region": "Hessen",
@@ -19013,8 +19013,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "NeustadtNiedersachsen-(Hessen)",
-        "cityLink": "neustadtniedersachsen-(hessen)"
+        "city": "Neustadt-(Hessen)",
+        "cityLink": "neustadt-(hessen)"
     },
     {
         "region": "Hessen",
@@ -19088,8 +19088,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "OberurselNiedersachsen-(Taunus)",
-        "cityLink": "oberurselniedersachsen-(taunus)"
+        "city": "Oberursel-(Taunus)",
+        "cityLink": "oberursel-(taunus)"
     },
     {
         "region": "Hessen",
@@ -19103,8 +19103,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "OffenbachNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "offenbachniedersachsen-amniedersachsen-main"
+        "city": "Offenbach-am-Main",
+        "cityLink": "offenbach-am-main"
     },
     {
         "region": "Hessen",
@@ -19133,8 +19133,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "PhilippsthalNiedersachsen-(Werra)",
-        "cityLink": "philippsthalniedersachsen-(werra)"
+        "city": "Philippsthal-(Werra)",
+        "cityLink": "philippsthal-(werra)"
     },
     {
         "region": "Hessen",
@@ -19143,8 +19143,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "PoppenhausenNiedersachsen-(Wasserkuppe)",
-        "cityLink": "poppenhausenniedersachsen-(wasserkuppe)"
+        "city": "Poppenhausen-(Wasserkuppe)",
+        "cityLink": "poppenhausen-(wasserkuppe)"
     },
     {
         "region": "Hessen",
@@ -19173,13 +19173,13 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "ReichelsheimNiedersachsen-(Odenwald)",
-        "cityLink": "reichelsheimniedersachsen-(odenwald)"
+        "city": "Reichelsheim-(Odenwald)",
+        "cityLink": "reichelsheim-(odenwald)"
     },
     {
         "region": "Hessen",
-        "city": "ReichelsheimNiedersachsen-(Wetterau)",
-        "cityLink": "reichelsheimniedersachsen-(wetterau)"
+        "city": "Reichelsheim-(Wetterau)",
+        "cityLink": "reichelsheim-(wetterau)"
     },
     {
         "region": "Hessen",
@@ -19248,8 +19248,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "RosbachNiedersachsen-v.Niedersachsen-d.Niedersachsen-Höhe",
-        "cityLink": "rosbachniedersachsen-v.niedersachsen-d.niedersachsen-hoehe"
+        "city": "Rosbach vor der Höhe",
+        "cityLink": "rosbach-vor-der-hoehe"
     },
     {
         "region": "Hessen",
@@ -19258,18 +19258,18 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "Roßdorf",
+        "city": "Rossdorf",
         "cityLink": "rossdorf"
     },
     {
         "region": "Hessen",
-        "city": "RotenburgNiedersachsen-a.Niedersachsen-d.Niedersachsen-Fulda",
-        "cityLink": "rotenburgniedersachsen-a.niedersachsen-d.niedersachsen-fulda"
+        "city": "Rotenburg an der Fulda",
+        "cityLink": "rotenburg-an-der-fulda"
     },
     {
         "region": "Hessen",
-        "city": "RüdesheimNiedersachsen-amNiedersachsen-Rhein",
-        "cityLink": "ruedesheimniedersachsen-amniedersachsen-rhein"
+        "city": "Rüdesheim-am-Rhein",
+        "cityLink": "ruedesheim-am-rhein"
     },
     {
         "region": "Hessen",
@@ -19278,8 +19278,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "RüsselsheimNiedersachsen-amNiedersachsen-Main",
-        "cityLink": "ruesselsheimniedersachsen-amniedersachsen-main"
+        "city": "Rüsselsheim-am-Main",
+        "cityLink": "ruesselsheim-am-main"
     },
     {
         "region": "Hessen",
@@ -19313,8 +19313,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "SchmittenNiedersachsen-imNiedersachsen-Taunus",
-        "cityLink": "schmittenniedersachsen-imniedersachsen-taunus"
+        "city": "Schmitten-im--Taunus",
+        "cityLink": "schmitten-im-taunus"
     },
     {
         "region": "Hessen",
@@ -19338,8 +19338,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "SchwalbachNiedersachsen-amNiedersachsen-Taunus",
-        "cityLink": "schwalbachniedersachsen-amniedersachsen-taunus"
+        "city": "Schwalbach-am-Taunus",
+        "cityLink": "schwalbac-am-taunus"
     },
     {
         "region": "Hessen",
@@ -19368,8 +19368,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "SeltersNiedersachsen-(Taunus)",
-        "cityLink": "seltersniedersachsen-(taunus)"
+        "city": "Selters-(Taunus)",
+        "cityLink": "selter-(taunus)"
     },
     {
         "region": "Hessen",
@@ -19423,28 +19423,28 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "SteinauNiedersachsen-anNiedersachsen-derNiedersachsen-Straße",
-        "cityLink": "steinauniedersachsen-anniedersachsen-derniedersachsen-strasse"
+        "city": "Steinau-an-der-Strasse",
+        "cityLink": "steinaun-an-der-strasse"
     },
     {
         "region": "Hessen",
-        "city": "SteinbachNiedersachsen-(Taunus)",
-        "cityLink": "steinbachniedersachsen-(taunus)"
+        "city": "Steinbach-(Taunus)",
+        "cityLink": "steinbach-(taunus)"
     },
     {
         "region": "Hessen",
-        "city": "StockstadtNiedersachsen-amNiedersachsen-Rhein",
-        "cityLink": "stockstadtniedersachsen-amniedersachsen-rhein"
+        "city": "Stockstad-am-Rhein",
+        "cityLink": "stockstadt-am-rhein"
     },
     {
         "region": "Hessen",
-        "city": "SulzbachNiedersachsen-(Taunus)",
-        "cityLink": "sulzbachniedersachsen-(taunus)"
+        "city": "Sulzbach-(Taunus)",
+        "cityLink": "sulzbach-(taunus)"
     },
     {
         "region": "Hessen",
-        "city": "TannNiedersachsen-(Rhön)",
-        "cityLink": "tannniedersachsen-(rhoen)"
+        "city": "Tann-(Rhoen)",
+        "cityLink": "tann-(rhoen)"
     },
     {
         "region": "Hessen",
@@ -19513,8 +19513,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "WaldbrunnNiedersachsen-(Westerwald)",
-        "cityLink": "waldbrunnniedersachsen-(westerwald)"
+        "city": "Waldbrunn-(Westerwald)",
+        "cityLink": "waldbrunn-(westerwald)"
     },
     {
         "region": "Hessen",
@@ -19583,8 +19583,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "WeimarNiedersachsen-(Lahn)",
-        "cityLink": "weimarniedersachsen-(lahn)"
+        "city": "Weimar-(Lahn)",
+        "cityLink": "weimar-(lahn)"
     },
     {
         "region": "Hessen",
@@ -19593,7 +19593,7 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "Weißenborn",
+        "city": "Weissenborn",
         "cityLink": "weissenborn"
     },
     {
@@ -19603,8 +19603,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "WesertalNiedersachsen-(incl.Niedersachsen-Oberweser,Niedersachsen-Wahlsburg)",
-        "cityLink": "wesertalniedersachsen-(incl.niedersachsen-oberweser,niedersachsen-wahlsburg)"
+        "city": "Wesertal",
+        "cityLink": "wesertal"
     },
     {
         "region": "Hessen",
@@ -19613,8 +19613,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "WetterNiedersachsen-(Hessen)",
-        "cityLink": "wetterniedersachsen-(hessen)"
+        "city": "Wetter-(Hessen)",
+        "cityLink": "wetter-(hessen)"
     },
     {
         "region": "Hessen",
@@ -19633,8 +19633,8 @@ export const CityList = [
     },
     {
         "region": "Hessen",
-        "city": "WillingenNiedersachsen-(Upland)",
-        "cityLink": "willingenniedersachsen-(upland)"
+        "city": "Willingen-(Upland)",
+        "cityLink": "willingen-(upland)"
     },
     {
         "region": "Hessen",
