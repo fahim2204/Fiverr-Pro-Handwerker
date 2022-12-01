@@ -32,7 +32,7 @@ const City = (context) => {
         <title>{`Terrassenbauer - Pflasterarbeiten in ${context.data} ❤️ Pro Handwerker`}</title>
         <meta name="robots" content="index,follow" />
         <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen in ${context.data}. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`}/>
-        <link rel="canonical" href={`https://pro-handwerker.de/garten-und-landschaftsbauer/${context.dataLink}`}/>
+        <link rel="canonical" href={`https://pro-handwerker.de/garten-und-landschaftsbauer/${context.dataLink}/`}/>
       </Head>
       <header className="hero-img">
         <Navbar />

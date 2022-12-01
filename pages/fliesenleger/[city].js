@@ -35,7 +35,7 @@ const City = (context) => {
         />
         <link
           rel="canonical"
-          href={`https://pro-handwerker.de/fliesenleger/${context.dataLink}`}
+          href={`https://pro-handwerker.de/fliesenleger/${context.dataLink}/`}
         />
       </Head>
       <header className="hero-img">

@@ -9,7 +9,7 @@ const Datenschutzerklaerung = () => {
                 <title>Datenschutzerklaerung ❤️ Pro Handwerker</title>
                 <meta name="robots" content="noindex,follow" />
                 <meta name="description" content={`Herzlich willkommen bei Pro Handwerker – Ihrem Ansprechpartner für fachmännische Handwerksdienstleistungen. Wir bieten Ihnen mit unserer Erfahrung eine hohe Fachkompetenz und eine kostenlose Beratung bei ihrem Vorhaben.`} />
-                <link rel="canonical" href="https://pro-handwerker.de/datenschutzerklaerung" />
+                <link rel="canonical" href="https://pro-handwerker.de/datenschutzerklaerung/" />
             </Head>
             <header className="hero-img">
                 <Navbar />
